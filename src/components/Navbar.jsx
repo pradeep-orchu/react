@@ -7,9 +7,9 @@ export default function Navbar() {
       <div className="flex items-center justify-between">
         <div className="text-xl font-bold text-slate-800">Pradeep Orchu</div>
         <ul className="flex space-x-4 text-gray-600">
-          <li><a href="#" className="">Home</a></li>
-          <li><a href="#" className="">About</a></li>
+          <li><a href="#" className="">Gallery</a></li>
           <li><a href="#" className="">Services</a></li>
+          <li><a href="#" className="">About</a></li>
           <li><a href="#" className="">Contact</a></li>
         </ul>
       </div>
