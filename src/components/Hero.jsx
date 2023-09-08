@@ -1,6 +1,4 @@
 import React from 'react'
-import '/src/assets/dp.png'
-import Navbar from './Navbar'
 
 export default function Hero() {
   return (
@@ -14,8 +12,14 @@ export default function Hero() {
           <p className="text-lg md:text-xl pr-20 mr-20 text-stone-600">
           I am a data analyst with a passion for using data to solve problems. I have 5+ years of experience in the tech industry, and I am proficient in a variety of data analysis tools and technologies.
           </p>
+          <ul className="flex space-x-4 text-gray-600 ">
+          <li><img src='/src/assets/email.png' alt='email' className='w-9 py-1'/></li>
+          <li><img src='/src/assets/instagram.png' alt='instagram' className='w-10'/></li>
+          <li><img src='/src/assets/linked.png' alt='Linkedin' className='w-10'/></li>
+          <li><img src='/src/assets/whats.png' alt='Whatsapp' className='w-10'/></li>
+        </ul>
         </div>
-        <img src="/src/assets/dp.png" alt="Profile"  className='w-1/3 h-auto rounded-full border-solid border-4 border-zinc-800'/>
+        <img src="/src/assets/dp.png" alt="Profile"  className='w-1/3 h-auto rounded-full border-solid border-4 border-zinc-600'/>
       </div>
       </div>
     </div>
