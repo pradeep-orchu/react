@@ -13,13 +13,13 @@ export default function Hero() {
           I am a data analyst with a passion for using data to solve problems. I have 5+ years of experience in the tech industry, and I am proficient in a variety of data analysis tools and technologies.
           </p>
           <ul className="flex space-x-4 text-gray-600 ">
-          <li><a href='mailto:pradeepkrishna748@gmail.com'><img src='/src/assets/email.png' alt='email' className='w-9 py-1'/></a></li>
-          <li><a href='https://www.linkedin.com/in/pradeep-krishna-orchu-6494bb28b/'><img src='/src/assets/linked.png' alt='Linkedin' className='w-10'/></a></li>
-          <li><a href='https://www.instagram.com/pradeepassionate/'><img src='/src/assets/instagram.png' alt='instagram' className='w-10'/></a></li>
-          <li><a href='https://wa.me/+919581482777'><img src='/src/assets/whats.png' alt='Whatsapp' className='w-10'/></a></li>
+          <li><a href='mailto:pradeepkrishna748@gmail.com'><img src='/email.png' alt='email' className='w-9 py-1'/></a></li>
+          <li><a href='https://www.linkedin.com/in/pradeep-krishna-orchu-6494bb28b/'><img src='/linked.png' alt='Linkedin' className='w-10'/></a></li>
+          <li><a href='https://www.instagram.com/pradeepassionate/'><img src='/instagram.png' alt='instagram' className='w-10'/></a></li>
+          <li><a href='https://wa.me/+919581482777'><img src='/whats.png' alt='Whatsapp' className='w-10'/></a></li>
         </ul>
         </div>
-        <img src="/src/assets/dp.png" alt="Profile"  className='w-1/3 h-auto rounded-full border-solid border-4 border-zinc-600'/>
+        <img src="/dp.png" alt="Profile"  className='w-1/3 h-auto rounded-full border-solid border-4 border-zinc-600'/>
       </div>
       </div>
     </div>
